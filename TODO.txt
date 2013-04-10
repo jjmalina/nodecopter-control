@@ -1,4 +1,8 @@
-
+-------------------------------
+ALL THE STUFF THAT WE SHOULD DO
+-------------------------------
+- figure out whether we can leave dronestream as a separate module
+    - seems like it has to be part of the project because websuckets ;_;
 - Incoming websocket data is kinda hacky because it's either stringified json or binary.
 - Need to be able to handle multiple keys at a time
 - Do not allow any controls to be issued unless the drone is flying
@@ -11,5 +15,6 @@
     - Speed
     - Battery
     - Velocity
+    - FLAT UI AND LOTS OF GRAPHS MAKE IT PRETTY
 - Buttons for controls
 
