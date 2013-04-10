@@ -3,7 +3,7 @@
 - Need to be able to handle multiple keys at a time
 - Do not allow any controls to be issued unless the drone is flying
   otherwise only takeoff can be called
-
+- Fix the javascript for loop fuckery in controls.js
 - HUD display design
     - Camera view
     - Altitude
