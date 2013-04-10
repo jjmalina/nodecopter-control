@@ -1,0 +1,5 @@
+node_modules/
+ardrone-wpa2/
+.DS_Store
+npm-debug.log
+*.swp

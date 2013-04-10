@@ -1,0 +1,15 @@
+{
+  "name": "Copter Control",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.1.1",
+    "jade": "*",
+    "ar-drone": "git://github.com/felixge/node-ar-drone.git",
+    "dronestream": "git://github.com/bkw/node-dronestream.git",
+    "ws": "~0.4.25"
+  }
+}

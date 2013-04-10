@@ -1,0 +1,15 @@
+
+- Incoming websocket data is kinda hacky because it's either stringified json or binary.
+- Need to be able to handle multiple keys at a time
+- Do not allow any controls to be issued unless the drone is flying
+  otherwise only takeoff can be called
+
+- HUD display design
+    - Camera view
+    - Altitude
+    - GPS location?
+    - Speed
+    - Battery
+    - Velocity
+- Buttons for controls
+

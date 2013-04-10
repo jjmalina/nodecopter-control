@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1= title
+  div#dronestream(width=640, height=360)
+  ul#drone-demo
+    li Control state:
+        span.controlState
+    li Fly state:
+        span.flyState
+    li Battery:
+        span.batteryPercentage
+    li Front back degrees:
+        span.frontBackDegrees
+    li Left right degrees:
+        span.leftRightDegrees
+    li Clockwise degrees:
+        span.clockwiseDegrees
+    li Altitude:
+        span.altitudeMeters
+    li X velocity:
+        span.xVelocity
+    li Y velocity:
+        span.yVelocity
+    li Z velocity:
+        span.zVelocity
+    li Frame index
+        span.frameIndex
